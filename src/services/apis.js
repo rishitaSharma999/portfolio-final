@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:4001/api/v1"
+const BASE_URL = "https://portfolio-final-tnqk.onrender.com/api/v1"
 
 export const contactusEndpoint = {
   CONTACT_US_API: BASE_URL + "/contact",
