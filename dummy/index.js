@@ -31,7 +31,7 @@ app.use(
 
 
 
-app.use("/api/v1/contact",contactRoutes)
+app.use("/api/v1/",contactRoutes)
 
 
 
