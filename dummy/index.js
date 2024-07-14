@@ -23,7 +23,7 @@ app.use(express.json());{/*In Express.js, when a client sends a request to the s
 app.use(cookieParser());//express.json() middleware to parse the JSON data into a JavaScript object.The parsed JSON data is then stored in the req.body property, which is an object that contains the parsed data.
 app.use(
     cors({
-        origin:["http://localhost:3000", "https://rishita.vercel.app"],
+        origin:["http://localhost:3000", "https://portfolio-final-eta-ten.vercel.app"],
         credentials:true
     })
 )
